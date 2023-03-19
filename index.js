@@ -1,4 +1,3 @@
-
 function laCajaDePandora(numero){
     if (Number.isInteger(numero)){
         if (numero%2===0){
