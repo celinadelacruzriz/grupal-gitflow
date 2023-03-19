@@ -17,3 +17,12 @@ num= Math.floor(num/2);
 return binario.split('').reverse().join('');  
 }
 
+function rocio(){
+    return (
+        {
+            nombre: 'Rocio',
+            edad: '28',
+            nacionalidad: 'Argentina'
+        }
+    )
+}
