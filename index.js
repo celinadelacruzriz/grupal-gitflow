@@ -1,26 +1,30 @@
 
 function laCajaDePandora(numero){
-    // proximamente escribiremos codigo aqui
-
-    if(numero % 2 === 0) {
-        
-    var num = numero 
-    var binario = ""
-    while(num > 1) {
-       binario = binario + (num % 2 === 0 ? 0 : 1)
-       num = num / 2
-     
-       }
-     binario = binario.split('').reverse().join('');
-     return binario
-     }
-
-    else {
-     return "codigo hexadecimal"
+    if (Number.isInteger(numero)){
+        if (numero%2===0){
+            return cambioBinario(numero)
+        }else return numero.toString(16);
     }
-
     }
+function cambioBinario(num) {   
+let binario= '';                    
+while (num!==0){                    
+binario+= num%2;                  
+num= Math.floor(num/2);          
+}
+return binario.split('').reverse().join('');  
+}
 
+
+function rocio(){
+    return (
+        {
+            nombre: 'Rocio',
+            edad: '28',
+            nacionalidad: 'Argentina'
+        }
+    )
+}
 
 function matias() {
     return {
