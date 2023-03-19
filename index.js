@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
 
@@ -28,3 +29,12 @@ function matias() {
         nationality: "Argentina"
     }
 }
+
+
+  function javier() {
+    return {
+      name: "Javier",
+      age: 39,
+      nationality: "Argentino"
+    }
+  }
