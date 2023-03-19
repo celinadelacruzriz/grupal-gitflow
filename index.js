@@ -25,6 +25,15 @@ function laCajaDePandora(numero) {
 
     }
 
+
+}
+
+function Celina() {
+    return ({
+        name: 'Celina',
+        age: '43',
+        nacionalidad: 'arg'
+    })
 }
 
 
